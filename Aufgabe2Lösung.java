@@ -29,5 +29,16 @@ public class Aufgabe2Lösung {
         //modulo
         result = a % b;
         System.out.println("result modulo = " + result);
+
+        // a++
+        System.out.println("a++");
+        //ich erwarte 3
+        System.out.println(a++);
+        System.out.println("a=" +a);   //ich erwarte mir 4
+        // ++b
+        System.out.println();
+
+        //strg k zum commi
     }
+
 }
